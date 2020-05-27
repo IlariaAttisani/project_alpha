@@ -1,0 +1,24 @@
+Esercizio di rafforzamento.
+Creare un sistema CRUD che gestisce i voti di uno studente
+Di un voto richiediamo la materia e il punteggio e data di conseguimento
+
+1) Creare lo scaffolding HTML dove attraverso una tabella/lista
+	visualizzare i voti dello studente
+	
+2) Creare degli input dove l'utente può inserire voti nuovi
+	2b) Le materie devono essere selezionati da un menù a tendina
+	2c) La lista delle materie dinamica, nel senso che io posso inserire
+		una nuova materia da un input e risultare selezionabile dallo menù
+
+3) Far in modo che l'inserimento corrisponda alla visualizzazione nella
+	pagina
+	3b) Mettere dei piccoli effetti di visualizzazione
+	
+4) In fondo visualizzare la media dei voti
+5) Visualizzare l'esito: Bocciato se ha più di due insufficienze o la media
+	è sotto il 6
+	
+6) Rendere eliminabile un voto (andando ad aggiornare tutti i dati inerenti)
+
+7) Rendere possibile la modifica di un voto
+	

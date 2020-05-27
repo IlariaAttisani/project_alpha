@@ -1,0 +1,6 @@
+Esercizio Fullstack con backend REST e frontend AJAX con JQuery
+
+Utilizzare il progetto NegozioRest per il backend rest.
+Creare index, main.js, etc in WebContent
+La pagina HTML deve far utilizzo di JQuery per andare a recuperare i dati
+dal server ed offrire i principali metodi CRUD

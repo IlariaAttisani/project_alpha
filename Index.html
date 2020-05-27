@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studenti CRUD</title>
+    <script src = "./jquery-3.5.1.min.js"></script>
+    <script src = "./Main.js"></script>
+    <link href="./Style.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+    <h1>Benvenuti!</h1>
+    <div id = inserimento>
+        <table id = "tabella"> 
+            <tr>
+                <th>Voto</th>
+                <th>Materia</th>
+                <th>Punteggio</th>
+                <th>Data di Conseguimento</th>
+                <th>Opzioni</th>
+            </tr>
+            <tr>
+                <td><input id = "id" type = "number" placeholder = "Id"
+                    min = 1></td>
+                <td><input id = "materia" type = "text" placeholder = "Materia"></td>
+                <td><input id = "punteggio" type = "number" placeholder = "Punteggio"
+                    min = 4.00 max = 10 step = 0.25></td>
+                <td><input id = "data" type = "date" 
+                    placeholder = "Data Conseguimento"></td>
+                <td><button id = "aggiungi">Aggiungi</button></td>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <div id = risultati>
+        <p id = "media">Qua apparirà la tua media</p>
+        <p id = "insufficenze">Qua apparirà il tuo numero di insufficenze</p>
+        <p id = "esito">Qua l'esito,bocciato o meno</p>
+    </div>
+        <div id="menu">
+            <!-- Lista generale -->
+            <ul>
+                <!-- 1° Elemento	-->
+                <li><a href="#">Home</a></li>
+    
+                <!-- 2° Elemento -->
+                <li><a href="#">Contattami</a></li>
+    
+                <!-- 3° Elemento: (Sottomenu) -->
+                <li>
+                    <a href="#">Sezioni</a>
+                    <ul>
+                        <li><a href="#">Windows</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Attualità</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">Mi presento</a></li>
+            </ul>
+        </div>
+</body>
+</html>
